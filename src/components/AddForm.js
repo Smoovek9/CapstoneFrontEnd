@@ -26,7 +26,7 @@ export default class AddForm extends Component {
             swordType: this.state.swordType,
             url: this.state.url
         }
-        axios.post('http://localhost:5000/demonSlayer', data)
+        axios.post('https://dre-capstone-backend.herokuapp.com/demonSlayer', data)
         .then((response) => {
             window.location.reload()
           })

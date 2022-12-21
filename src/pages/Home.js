@@ -20,7 +20,7 @@ export default class Home extends Component {
 
     getDemonSlayers() {
         axios
-            .get('http://localhost:5000/demonSlayers')
+            .get('https://dre-capstone-backend.herokuapp.com/demonSlayers')
             .then(response => {
                 this.setState({
                     demonSlayers: response.data
@@ -53,7 +53,7 @@ export default class Home extends Component {
     }
 
     handleDeleteClick(id) {
-        axios.delete(`http://localhost:5000/demonSlayer/${id}`)
+        axios.delete(`https://dre-capstone-backend.herokuapp.com/demonSlayer/${id}`)
             .then(response => {
                 window.location.reload()
 
