@@ -1,0 +1,30 @@
+.home-wrapper {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ align-items: center;
+ img {
+    height: 300px;
+ }
+}
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: larger;
+    margin-top: 150px;
+
+}
+.demonSlayerFam {
+display: flex;
+justify-content: space-around;
+
+.form-wrapper{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: larger;
+    margin-top: 150px;
+
+}
+}
